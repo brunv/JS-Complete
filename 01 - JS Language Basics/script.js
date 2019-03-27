@@ -74,3 +74,31 @@ console.log(typeof year);
 console.log(typeof x);
 console.log(typeof 'John Smith');
 console.log(typeof (ageJohn > ageMark));
+
+
+
+/******************************************
+ * Operator Precedence
+*/
+
+var fullAge = 18;
+
+var ifFullAge = year - yearJohn >= fullAge;
+console.log(ifFullAge);
+
+var average = (ageJohn + ageMark) / 2;
+console.log(average);
+
+// This next example works because assignments works from right to left
+var a, b;
+a = b = (3 + 5) * 4 - 6; // 8 * 4 - 6 // 32 - 6 // 26
+console.log(a,b);
+
+// More Operators
+a *= 2; // a = a * 2
+console.log(a);
+b += 2
+console.log(b);
+a++;
+b--;
+console.log(a,b);
