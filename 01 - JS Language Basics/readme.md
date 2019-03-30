@@ -43,4 +43,5 @@ console.log(age); // 'forty five'
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
 
 ## Functions
-    
+
+## Loops and Iteration
