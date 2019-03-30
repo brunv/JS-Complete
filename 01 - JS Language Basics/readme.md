@@ -45,3 +45,9 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Oper
 ## Functions
 
 ## Loops and Iteration
+
+## JavaScript Versions: ES5, ES6/ES2015 and ES6+
+- ECMAScript: The language standard
+- JavaScript: The language itself
+
+Modern browser usually supports the lastest language's updates. You can use most features in production with transpiling and polyfilling (converting to ES5) if you want your code to be compatible with older browsers.
