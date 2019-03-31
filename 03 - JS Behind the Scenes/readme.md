@@ -52,3 +52,12 @@ Each execution context has an object which stores a lot of important data that t
 
 1. Code is scanned for *function declarations*: for each function, a property is created in the Variable Object, *pointing to the function*.
 2. COde is scanned for *variable declarations*: for each variable, a property is created in the Variable Object, and to __undefined__.
+
+## Scoping and the Scope Chain
+Scoping answers the question "where can we access a certain variable?". You must know that each new function creates a scope which is the space/environment in which the variable it defines is accessible.
+
+In JavaScript the only way to create a new scope is to write a new function. It does not create a new scope using ___for__, __while__, or __if__ blocks.
+
+In JavaScript we have *Lexical Scoping*: a function that is lexically within another function gets access to the scope of the outer function, also called the parent function. And with that is also gets access to the variables and functions that the parent function defines.
+
+Scope Chain works in only one direction: locally scoped variables are not visible to theur parent scopes.
