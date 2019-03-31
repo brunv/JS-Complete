@@ -61,3 +61,9 @@ In JavaScript the only way to create a new scope is to write a new function. It 
 In JavaScript we have *Lexical Scoping*: a function that is lexically within another function gets access to the scope of the outer function, also called the parent function. And with that is also gets access to the variables and functions that the parent function defines.
 
 Scope Chain works in only one direction: locally scoped variables are not visible to theur parent scopes.
+
+## The 'this' Keyword
+- In a *Regular funcion call*: the __this__ keyword points at the global object, which is the __window__ object, in the browser.
+- In a *Method call*: the __this__ variable points to the object that is calling the method.
+
+The __this__ keyword is not assigned a value until a function where it is defined is actually called.
