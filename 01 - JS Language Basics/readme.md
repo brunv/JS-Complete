@@ -45,6 +45,45 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Oper
 ## Functions
 
 ## Loops and Iteration
+Loops can be writen in three ways:
+
+- While:
+```
+var i = 3;
+while (i > 0)
+{
+    console.log(i);
+    i--;
+}
+>>> 3
+>>> 2
+>>> 1
+```
+
+- Do... While:
+```
+var i = 3;
+do
+{
+    console.log(i);
+    i--;
+} while (i>0);
+>>> 3
+>>> 2
+>>> 1
+```
+
+- For loop:
+```
+for (var i=0; i<3; i++)
+{
+    console.log(i);
+}
+>>> 0
+>>> 1
+>>> 2
+```
+
 
 ## JavaScript Versions: ES5, ES6/ES2015 and ES6+
 - ECMAScript: The language standard
