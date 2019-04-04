@@ -11,7 +11,7 @@ function calculateAge(year)
 }
 calculateAge(1984);
 
-// but matters when using funcion expreesions:
+// but matters when using funcion expressions:
 
 // retirement(1984); // does not work!
 var retirement = function(year)
