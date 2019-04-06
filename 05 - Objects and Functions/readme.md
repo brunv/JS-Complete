@@ -17,3 +17,6 @@ When we try to access a certain method, or property on an object, JavaScript wil
 - The prototype property of an object is where we put methods an properties that we want __other objects to inherit__;
 - The Constructor's prototype property is __not__ the prototype of the Constructor itself, it's the prototype of __all__ instances that are created through it;
 -  When a certain method (or property) is called, the search starts in the object itself, and if it cannot be found, the search moves on to the object's prototype. This continues until the method is found: __prototype chain__.
+
+## Object.create vs new Obejct()
+The difference between them is that _Objecte.create_ builds an object that inherits directly from the one that we passed into the first argument. While, on the other hand, the function constructor, the newly created object inherits from the constructor's prototype property.
