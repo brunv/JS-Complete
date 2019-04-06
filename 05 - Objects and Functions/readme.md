@@ -20,3 +20,12 @@ When we try to access a certain method, or property on an object, JavaScript wil
 
 ## Object.create vs new Obejct()
 The difference between them is that _Objecte.create_ builds an object that inherits directly from the one that we passed into the first argument. While, on the other hand, the function constructor, the newly created object inherits from the constructor's prototype property.
+
+## Functions are also Objects in JavaScript
+- A function is an instance of the Object type;
+- A function behaves like any other object;
+- We can store functions in a variable;
+- We can pass a function as an argument to another function;
+- We can return a function from a function.
+
+That's why we call the functions of JavaScript as First Class Functions.
