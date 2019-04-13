@@ -1,6 +1,9 @@
 /* Classes in ES6 */
 
-/* Class definitions are not hoisted! */
+/* Important things:
+- class definitions are not hoisted!
+- we can only add methods to classes, but not properties (inheriting properties through the object instances is not a best practice).
+*/
 
 // ES5
 var Person5 = function(name, yearOfBirth, job) {
