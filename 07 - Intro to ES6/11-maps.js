@@ -1,5 +1,13 @@
 /* Maps Data Structure */
 
+/*
+Maps are better than objects to create Hash Maps:
+- we can use anything as keys;
+- maps are iterable;
+- easy to get the size of the map;
+- we can easily remove and add data from a map;
+*/
+
 const question = new Map();
 question.set('question', 'What is the official name of the latest major JS version?');
 question.set(1, 'ES5');
