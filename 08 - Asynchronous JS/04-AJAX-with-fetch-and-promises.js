@@ -10,7 +10,7 @@ function getWeather(woeid) {
     .then(data => {
         console.log(data);
         const today = data.consolidated_weather[0];
-        console.log(`Temperatures in ${data.title} stay between ${today.min_temp} and ${today.max_temp}.`)
+        console.log(`Temperatures in ${data.title} stay between ${today.min_temp} and ${today.max_temp}.`);
     })
     .catch(error => {
         console.log(error);
