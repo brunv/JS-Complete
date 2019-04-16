@@ -26,5 +26,8 @@ ES6 brings Promises to put an end to the Callback Hell. Promise:
 Since we're dealing with time sensitive code now a promise can have different states. So before the event has happened the promise is _pending_. Then after the event has happened the promise is called _settled_ or _resolved_. When the promise was actually successful, which means that a result is available, then the promise if _fulfilled_, but if there was an error, the promise is _rejected_.
 
 ## Async/Await
+Async/Await was introduced in ES7 and ES8. It allows us to consume Promises, but without all the callbacks that we have with the callback hell.
+
+Async functions will always run in the background and also automatically returns a promise with resolved value.
 
 ## AJAX
