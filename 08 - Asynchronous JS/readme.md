@@ -17,6 +17,13 @@ What happens to our callback functinos after our setTimeOut is over? It simply m
 How these callback functions in the Message Queue executed? That's where the Event Loop comes in. The job of the Event Loop is to constantly monitor the Message Queue and the Execution Stack, and to push the first callback function in line onto the Execution Stack, as soon as the stack is empty.
 
 ## Promises
+ES6 brings Promises to put an end to the Callback Hell. Promise:
+
+- Object that keeps track about whether a certain event has happened already or not;
+- Determines what happens after the event has happened;
+- Implements the concept of a future value that we're expecting; 
+
+Since we're dealing with time sensitive code now a promise can have different states. So before the event has happened the promise is _pending_. Then after the event has happened the promise is called _settled_ or _resolved_. When the promise was actually successful, which means that a result is available, then the promise if _fulfilled_, but if there was an error, the promise is _rejected_.
 
 ## Async/Await
 

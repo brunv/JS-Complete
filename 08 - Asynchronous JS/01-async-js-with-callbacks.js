@@ -2,6 +2,8 @@
 
 // In this code, the 'setTimeout()' are simulating AJAX server requests.
 
+// This code also creates a Callback Hell.
+
 function getRecipe() {
     setTimeout(() => {
         const recipeID = [345, 563, 127, 980];
