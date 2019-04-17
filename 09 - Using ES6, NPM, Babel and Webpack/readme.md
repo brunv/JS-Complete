@@ -20,3 +20,5 @@ Globally installed packages does not get listed in _package.json_.
 To install Webpack, enter:
 ``` npm install webpack --save-dev ```
 
+We can define script in webpack.config.js. To run then, just enter:
+``` npm run _script_name_ ```
