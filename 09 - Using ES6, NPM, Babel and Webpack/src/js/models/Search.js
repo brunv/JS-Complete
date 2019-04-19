@@ -1,15 +1,12 @@
 import axios from 'axios';
+import { keyAPI, proxy } from '../config';
 
 export default class Search {
     constructor(query) {
         this.query = query;
     }
 
-    async getResults() {
-        const proxy = 'https://cors-anywhere.herokuapp.com/';
-        // const keyAPI = 'e6988bf76de58836aee619ca41737816';
-        const keyAPI = 'a7a167ffa56418b168c90142c3b23de0';
-    
+    async getResults() {   
         try {
             const res = await axios(`${proxy}https://www.food2fork.com/api/search?key=${keyAPI}&q=${this.query}`); // automatically converts to json
             this.result = res.data.recipes;
