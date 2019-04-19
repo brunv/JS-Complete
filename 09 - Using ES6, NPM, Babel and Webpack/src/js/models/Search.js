@@ -5,7 +5,7 @@ export default class Search {
         this.query = query;
     }
 
-    async getResults(query) {
+    async getResults() {
         const proxy = 'https://cors-anywhere.herokuapp.com/';
         const keyAPI = 'e6988bf76de58836aee619ca41737816';
     
