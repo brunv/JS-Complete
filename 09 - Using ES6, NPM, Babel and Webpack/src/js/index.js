@@ -16,7 +16,6 @@ import { elements, renderLoader, clearLoader } from './views/base';
  - Liked recipes    
  */
 const state = {};
-window.state = state; // make state available in window
 
 /**
  * SEARCH CONTROLLER
@@ -63,7 +62,6 @@ elements.searchResPages.addEventListener('click', e => {
         const goToPage = parseInt(btn.dataset.goto, 10);
         searchView.clearResults();
         searchView.renderResults(state.search.result, goToPage);
-        console.log(goToPage);
     }
 });
 
@@ -74,7 +72,6 @@ elements.searchResPages.addEventListener('click', e => {
 const controlRecipe = async () => {
     // get ID from url
     const id = window.location.hash.replace('#', '');
-    console.log(id);
 
     if (id) {
         // 1. Prepare UI for changes
@@ -211,5 +208,3 @@ elements.recipe.addEventListener('click', e => {
         controlLike();
     }
 });
-
-window.l = new List();
