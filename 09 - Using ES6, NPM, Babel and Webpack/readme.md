@@ -1,6 +1,6 @@
 # Using ES6, NPM, Babel and Webpack
 
-# NodeJS and NPM
+## NodeJS and NPM
 To init the project just type 
 ``` npm init ```
 and answer some questions to properly set it.
